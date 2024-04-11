@@ -37,13 +37,6 @@ section {
     }
 }
 
-header {
-    color: #fff;
-    font-size: 50px;
-    text-align: center;
-    padding: 200px 0 30px 0;
-}
-
 .box video {
     position: absolute;
     left: 0;
@@ -62,8 +55,7 @@ header {
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 512px;
+    width: 300px;
     height: 600px;
     overflow: hidden;
     z-index: 0;
@@ -72,17 +64,17 @@ header {
 .login-container {
     position: absolute;
     left: 4px;
-    width: 500px;
+    width: 400px;
     display: flex;
     flex-direction: column;
     transition: .5s ease-in-out;
 }
 
-.login-container. .login-container. header {
+.top-box {
     color: #fff;
-    font-size: 30px;
-    text-align: center;
-    padding: 300px 0px 0px 0px;
+    font-size: 40px;
+    align-items: center;
+    padding: 300px 0px 0px 10px;
 }
 
 .input-field {
@@ -90,8 +82,8 @@ header {
     background: rgba(255, 255, 255, 0.2);
     color: #fff;
     height: 50px;
-    width: 100%;
-    padding: 0 10px 0 45px;
+    width: 50%;
+    padding: 0px 10px 0 45px;
     border: none;
     border-radius: 30px;
     outline: none;
@@ -107,19 +99,12 @@ header {
     color: #fff;
 }
 
-.input-box i {
-    position: relative;
-    top: -35px;
-    left: 17px;
-    color: #fff;
-}
-
 .submit {
     font-size: 15px;
     font-weight: 500;
     color: black;
     height: 45px;
-    width: 100%;
+    width: 50%;
     border: none;
     border-radius: 30px;
     outline: none;
